@@ -14,8 +14,9 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
@@ -23,7 +24,385 @@
 </head>
 
 <body>
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <header class="header">
+    <div class="header__section">
+      <a href="#" class="header__logo">
+        <img src="img/logo-light-bg.svg" />
+      </a>
+      <div class="header__links">
+        <a href="#">
+          Status
+        </a>
+      </div>
+    </div>
+    <div class="header__buttons">
+      <button class="button">E-mail helpdesk</button>
+    </div>
+  </header>
+  <main class="main">
+    <div class="main__status">
+      <img width="66" height="66" src="img/success.svg" />
+      <div class="main__status-title">
+        All services are online
+      </div>
+      <div class="main__status-date">
+        As of June 1st, 1:46 PM ET
+      </div>
+    </div>
+    <div class="main__block">
+      <div class="main__block-title">
+        <div class="main__block-title-text">Current status by service</div>
+        <div class="main__block-actions">
+          <a class="main__block-action" href="#">
+            <img src="img/success-inactive.svg" />
+          </a>
+          <a class="main__block-action" href="#">
+            <img src="img/warn-inactive.svg" />
+          </a>
+          <a class="main__block-action" href="#">
+            <img src="img/error-inactive.svg" />
+          </a>
+          <a class="main__block-action" href="#">
+            <img src="img/settings.svg" />
+          </a>
+          <a class="main__block-action" href="#">
+            <img src="img/not-monitored.svg" />
+          </a>
+        </div>
+      </div>
+      <div class="main__block-item">
+        <div class="main__block-item-header">
+          <div class="main__block-item-header-title">
+            <img src="img/success.svg">
+            <div class="main__block-item-header-title-text">API</div>
+            <img src="img/info.svg">
+          </div>
+          <div class="main__block-item-header-uptime">
+            100.000% uptime
+          </div>
+        </div>
+        <div class="main__block-chart">
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+        </div>
+      </div>
+      <div class="main__block-item">
+        <div class="main__block-item-header">
+          <div class="main__block-item-header-title">
+            <img src="img/warn.svg">
+            <div class="main__block-item-header-title-text">Dashboard</div>
+            <img src="img/info.svg">
+          </div>
+          <div class="main__block-item-header-uptime">
+            99.987% uptime
+          </div>
+        </div>
+        <div class="main__block-chart">
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_warn"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_warn"></div>
+          <div class="main__block-chart-item main__block-chart-item_warn"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_warn"></div>
+          <div class="main__block-chart-item main__block-chart-item_warn"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_warn"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_warn"></div>
+          <div class="main__block-chart-item main__block-chart-item_warn"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+        </div>
+      </div>
+      <div class="main__block-item">
+        <div class="main__block-item-header">
+          <div class="main__block-item-header-title">
+            <img src="img/error.svg">
+            <div class="main__block-item-header-title-text">Landing Page</div>
+            <img src="img/info.svg">
+          </div>
+          <div class="main__block-item-header-uptime">
+            99.706% uptime
+          </div>
+        </div>
+        <div class="main__block-chart">
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_err"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_err"></div>
+          <div class="main__block-chart-item main__block-chart-item_err"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_err"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_err"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_err"></div>
+          <div class="main__block-chart-item main__block-chart-item_err"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_err"></div>
+          <div class="main__block-chart-item main__block-chart-item_err"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_err"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_success"></div>
+          <div class="main__block-chart-item main__block-chart-item_err"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer__copyright">@ 2020 wallmine</div>
+    <div class="footer__copyright">Powered by <img src="img/footer-logo.svg" /></div>
+  </footer>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
